@@ -1,27 +1,38 @@
-h1 {color:black
-    font-size: 90px;
+body {
+    background-color: #fff1a6;
+    line-height: 1.5;
+    font-size: 20px;
+    margin: 0;
+}
+
+h1 {
+    color:black;
+    font-size: 70px;
     text-align: center
 }
 
-body {
-  background-color: #fff1a6
-}
 .DevTools,
-.XMLaJSON {background-color: #fff1a6}
+.XMLaJSON {
+    background-color: #fff1a6
+            }
 
-.Postman,
-.czechitas {background-color: #f9e3d0}
+.Postman  {
+    background-color: #f9e3d0
+              }
 
 .DevTools h2 {
-  color: darkorange
+    color: orange;
+    margin-top: 0
 }
 
 .Postman h2 {
-  color: darkgoldenrod
+  color: darkgoldenrod;
+  margin-top:0
 }
 
 .XMLaJSON h2 {
-  color: darkkhaki
+  color: darkkhaki;
+  margin-top:0
 }
 
 .XML {
@@ -33,5 +44,20 @@ body {
 }
 
 .Postman img {
-  width: 90%;
+  width: 500px;
 }
+
+section {
+   padding: 30px 15%
+   }
+
+header  {
+            padding: 40px 15%
+            }
+
+footer  {
+           background-color: black;
+           color: white;
+           text-align: center;
+           padding: 30px 0
+           }
