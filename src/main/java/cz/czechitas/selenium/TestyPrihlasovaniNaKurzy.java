@@ -32,7 +32,6 @@ public class TestyPrihlasovaniNaKurzy {
         Assertions.assertNotNull(polePrihlasen);
     }
 
-
     @Test
     public void rodicMusiPrihlasitDiteNaTrimesicniKurzWebuBezSvehoPredchozihoPrihlaseni() {
         prohlizec.navigate().to("https://cz-test-dva.herokuapp.com/");
@@ -61,7 +60,6 @@ public class TestyPrihlasovaniNaKurzy {
         this.vyplneniPrihlaskyNaKurzWebu();
         WebElement tlacitkoStahnoutPrihlasku = prohlizec.findElement(By.xpath("/html/body/div/div/div/div/div/table/tbody/tr[10]/td[2]/a"));
         Assertions.assertNotNull(tlacitkoStahnoutPrihlasku);
-
     }
 
     @Test
@@ -75,7 +73,6 @@ public class TestyPrihlasovaniNaKurzy {
 
         WebElement vyplnenePoleProEmail = prohlizec.findElement(By.id("email"));
         Assertions.assertEquals("info@veritas-learning.cz", vyplnenePoleProEmail.getAttribute("value"));
-
     }
     //--------------------------------
     public void prihlaseniRodice() {
