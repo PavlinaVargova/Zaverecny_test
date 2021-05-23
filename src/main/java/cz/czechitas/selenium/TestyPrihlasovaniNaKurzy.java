@@ -74,7 +74,9 @@ public class TestyPrihlasovaniNaKurzy {
         WebElement vyplnenePoleProEmail = prohlizec.findElement(By.id("email"));
         Assertions.assertEquals("info@veritas-learning.cz", vyplnenePoleProEmail.getAttribute("value"));
     }
+
     //--------------------------------
+
     public void prihlaseniRodice() {
         WebElement tlacitkoProEmail = prohlizec.findElement(By.id("email"));
         tlacitkoProEmail.sendKeys("info@veritas-learning.cz");
