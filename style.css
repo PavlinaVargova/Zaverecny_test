@@ -1,9 +1,7 @@
-body {
-    background-color: #fff1a6;
-    line-height: 1.5;
-    font-size: 20px;
-    margin: 0;
-}
+header  {
+            padding: 40px 15%;
+            background-color: brown;
+            }
 
 h1 {
     color:black;
@@ -11,63 +9,45 @@ h1 {
     text-align: center
 }
 
-.DevTools,
-.XMLaJSON {
-    background-color: #fff1a6
-            }
-
-.Postman  {
-    background-color: #f9e3d0
-              }
-
-.DevTools h2 {
-    color: orange;
-    margin-top: 0
+body {
+    background-color: #fff1a6;
+    line-height: 1.5;
+    font-size: 20px;
+    margin: 0;
+    text-color: brown;
 }
 
-.Postman h2 {
-  color: darkgoldenrod;
-  margin-top:0
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align:center
 }
 
-.XMLaJSON h2 {
-  color: darkkhaki;
-  margin-top:0
+.menu li {
+     display: inline-block;
+     color:green;
+     text-align: center
 }
 
-.XML {
-  color: chocolate
+.menu a {
+    color: green;
+    text-decoration: none;
+    padding: 20px; 30px;
 }
 
-.JSON {
-  color: darkred
+.text {
+    color:brown
 }
 
-.Postman img {
-  width: 500px;
+h2 {
+ color: black;
+  font-size: 34px;
+}
+
+.copyright {
+   color:black
 }
 
 section {
    padding: 30px 15%
    }
-
-header  {
-            padding: 40px 15%
-            }
-
-footer  {
-           background-color: black;
-           color: white;
-           text-align: center;
-           padding: 30px 0
-           }
-img {
-    float: right;
-    margin-left: 20px;
-}
-
-.zdroj_obrazku {
-      font-size: 14px;
-      text-align: right;
-      line-height: 1.0;
-}
