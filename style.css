@@ -30,6 +30,7 @@ body {
 }
 
 .menu a {
+    display: inline-block;
     color: green;
     text-decoration: none;
     padding: 20px; 30px;
